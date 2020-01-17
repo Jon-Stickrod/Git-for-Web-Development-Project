@@ -8,7 +8,7 @@ https://codepen.io/Jon-Stickrod/pen/mdyGYKy?editors=1000
 :HTML is used for giving us the bassics of a web pages UI such as, words, images, buttons, and links. 
 
     3. What is an attribute and where do we put it? 
-:an attribute is word that is used inside of the html tags(<>) that can controll that elements behavior.
+:an attribute is word assigned to a value that is used inside of the html tags(ex: <h1 attribute="">) that can controll that elements behavior.
 
     4. What is the h1 tag used for? How many times should I use it on a page?
 : h1 stands for "header 1" it should generaly only be used once at the top of a page.
@@ -17,15 +17,32 @@ https://codepen.io/Jon-Stickrod/pen/mdyGYKy?editors=1000
 : the <form> tag has attributes that that give a text typing box. the <h1>-<h6> tags have attributes that make their text bigger and in bold. 
 
     6. What do we put in the head of our HTML document? 
+: the head is used for any opening text or nav bars, as well as where the developer should put their link tags.
 
     7. What is an id? 
+:It is a element selector that is more specific than “class”
+
     8. What elements can I add an id to? 
+:Any element you would like to add it to
+
     9. How many times can I use the same id on a page? 
+: As many as you'd like, but it is good practice to not overuse the same tag too many times. 
+
     10. What is a class? 
+:A class is a element selector that is less specific that “id”
+
     11. What elements can I add a class to? 
+: Any element you want to add it to. 
+ 
     12. How many times can I use the same class on a page? 
+: As many times you'd like.
+
     13. How do I get my link to open in a new tab?
+: Adding the target="_blank" attribute after the href attribute will make the link open in a new tab.
+
     14. What is the alt attribute used for? 
+:The alt attribute is used for alternative text in case a image cannot load.
+
     15. How do I reference an id?
     16. What is the difference between a section and a div
     17. What is CSS used for? 
