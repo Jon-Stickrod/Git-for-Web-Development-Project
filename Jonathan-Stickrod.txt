@@ -82,14 +82,33 @@ https://codepen.io/Jon-Stickrod/pen/mdyGYKy?editors=1000
 : you would need to use the "text-transform:;" property and either write : lowercase;, : uppercase;, or : capitalize; 
 
     28. How do I add a 1px border around my div that is dotted and black?
-:
+:div {
+	border: 1px dotted black;
+}
 
     29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
+: * {}
+
+    30. How do I write a comment in CSS? 
+: /* your comment here */
+
     31. How do I find out what file I am in, when I am using the command line? 
+: pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+: ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+: rm. becarfull when using rm because it will permanently dellet what ever you use it on. 
+
     34. Why should I use version control? 
+: Because it keeps track of all the versions of the file so if you need to go back to a previous idea it is easily accessible, and it takes up less storage than keeping copies of project versions. 
+
     35. How often should I commit to github?
+: offten, whenever there have been lot's of significan changes made.
+
     36. What is the command we would use to push our repo up to github? 
+: git push origin.
+
     37. Walk me through Lambda's git flow. 
+:  It starts with forking the project on to your github profile, after that clone the file onto your computer, after this check out the git to your name, then you can commit as many changes as you need till the project is complete then you proceed to pushing the project and submitting it. 
