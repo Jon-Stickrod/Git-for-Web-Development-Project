@@ -44,19 +44,46 @@ https://codepen.io/Jon-Stickrod/pen/mdyGYKy?editors=1000
 :The alt attribute is used for alternative text in case a image cannot load.
 
     15. How do I reference an id?
+: witha period. ex:(.id-name)
+
     16. What is the difference between a section and a div
+:sections are used to seperate the page into individual pieces, div's are used to seperate sections into different pieces. 
+
     17. What is CSS used for? 
+:css is used for styling html. 
+
     18. How to we select an element? Example - every h2 on the page
+:you would type "h2 {  }"
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+:id has more specificity than a class. classes should be used when making broad styles to your web page. Id’s should be used to style more specific elements. 
+
     20. How do we select classes in CSS?
+:to call a class you would use the Octothorpe. ex: #class-name
+
     21. How do we select a p element with a single class of “human””?
+: ex: #human p {}
+
     22. What is a parent child selector? When would this be useful? 
+:child selector is used to target a specific element of html, while parent selectors are used to select html elements and all the child tags in that element. 
+
     23. How do you select all links within a div with the class of sidebar?
+: ex: #sidebar div {}
     24. What is a pseudo selector?
+: it is a key word added to a css selector that controls a specific satate of that selected element.  
+
     25. What do we use the change the spacing between lines?
+: line-height:;
+
     26. What do we use to change the spacing between letters?
+: letter-spacing:;
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+: you would need to use the "text-transform:;" property and either write : lowercase;, : uppercase;, or : capitalize; 
+
     28. How do I add a 1px border around my div that is dotted and black?
+:
+
     29. How do I select everything on the page? 
     30. How do I write a comment in CSS?
     31. How do I find out what file I am in, when I am using the command line? 
