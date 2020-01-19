@@ -116,8 +116,20 @@ https://codepen.io/Jon-Stickrod/pen/mdyGYKy?editors=1000
  Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+: Inline elements do not force a new line to begin, a however block element will cause a line break in the document
+
     2. What happens when an element is positioned absolutely? 
+: it takes the Element out of the standard control flow 
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+: use the relative length unit  "ch" ex: font-size: 3ch;
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+: 3 block elements are <h1>-<h6>, <p>, <ul>. 2 inline elements are <a> and <span>. 1 inline-block element is a <div>
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+: the box model is the idea that all the content on our page exists in different boxes, within these boxes there are other boxes that control how that elemnt looks and reacts with other boxes.
+the first box is our content box witch holds the content, the second is the padding box witch controlls the spacing between the content and border, next is the border witch can be styled to put 
+a border around our content, finally we have the margin witch controls the spacing between that box and everything elsse on the page.  
+
 
