@@ -1,0 +1,135 @@
+https://codepen.io/Jon-Stickrod/pen/mdyGYKy?editors=1000
+
+
+  1. What is Semantic HTML? 
+: Semantic HTML is html markup that reinforces the information/ meaning of a web page.
+
+    2. What is HTML used for? 
+:HTML is used for giving us the bassics of a web pages UI such as, words, images, buttons, and links. 
+
+    3. What is an attribute and where do we put it? 
+:an attribute is word assigned to a value that is used inside of the html tags(ex: <h1 attribute="">) that can controll that elements behavior.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+: h1 stands for "header 1" it should generaly only be used once at the top of a page.
+
+    5. Name two tags that have required attributes
+: the <form> tag has attributes that that give a text typing box. the <h1>-<h6> tags have attributes that make their text bigger and in bold. 
+
+    6. What do we put in the head of our HTML document? 
+: the head is used for any opening text or nav bars, as well as where the developer should put their link tags.
+
+    7. What is an id? 
+:It is a element selector that is more specific than “class”
+
+    8. What elements can I add an id to? 
+:Any element you would like to add it to
+
+    9. How many times can I use the same id on a page? 
+: As many as you'd like, but it is good practice to not overuse the same tag too many times. 
+
+    10. What is a class? 
+:A class is a element selector that is less specific that “id”
+
+    11. What elements can I add a class to? 
+: Any element you want to add it to. 
+ 
+    12. How many times can I use the same class on a page? 
+: As many times you'd like.
+
+    13. How do I get my link to open in a new tab?
+: Adding the target="_blank" attribute after the href attribute will make the link open in a new tab.
+
+    14. What is the alt attribute used for? 
+:The alt attribute is used for alternative text in case a image cannot load.
+
+    15. How do I reference an id?
+: witha period. ex:(.id-name)
+
+    16. What is the difference between a section and a div
+:sections are used to seperate the page into individual pieces, div's are used to seperate sections into different pieces. 
+
+    17. What is CSS used for? 
+:css is used for styling html. 
+
+    18. How to we select an element? Example - every h2 on the page
+:you would type "h2 {  }"
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+:id has more specificity than a class. classes should be used when making broad styles to your web page. Id’s should be used to style more specific elements. 
+
+    20. How do we select classes in CSS?
+:to call a class you would use the Octothorpe. ex: #class-name
+
+    21. How do we select a p element with a single class of “human””?
+: ex: #human p {}
+
+    22. What is a parent child selector? When would this be useful? 
+:child selector is used to target a specific element of html, while parent selectors are used to select html elements and all the child tags in that element. 
+
+    23. How do you select all links within a div with the class of sidebar?
+: ex: #sidebar div {}
+    24. What is a pseudo selector?
+: it is a key word added to a css selector that controls a specific satate of that selected element.  
+
+    25. What do we use the change the spacing between lines?
+: line-height:;
+
+    26. What do we use to change the spacing between letters?
+: letter-spacing:;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+: you would need to use the "text-transform:;" property and either write : lowercase;, : uppercase;, or : capitalize; 
+
+    28. How do I add a 1px border around my div that is dotted and black?
+:div {
+	border: 1px dotted black;
+}
+
+    29. How do I select everything on the page? 
+: * {}
+
+    30. How do I write a comment in CSS? 
+: /* your comment here */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+: pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+: ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+: rm. becarfull when using rm because it will permanently dellet what ever you use it on. 
+
+    34. Why should I use version control? 
+: Because it keeps track of all the versions of the file so if you need to go back to a previous idea it is easily accessible, and it takes up less storage than keeping copies of project versions. 
+
+    35. How often should I commit to github?
+: offten, whenever there have been lot's of significan changes made.
+
+    36. What is the command we would use to push our repo up to github? 
+: git push origin.
+
+    37. Walk me through Lambda's git flow. 
+:  It starts with forking the project on to your github profile, after that clone the file onto your computer, after this check out the git to your name, then you can commit as many changes as you need till the project is complete then you proceed to pushing the project and submitting it.
+
+ Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+: Inline elements do not force a new line to begin, a however block element will cause a line break in the document
+
+    2. What happens when an element is positioned absolutely? 
+: it takes the Element out of the standard control flow 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+: use the relative length unit  "ch" ex: font-size: 3ch;
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+: 3 block elements are <h1>-<h6>, <p>, <ul>. 2 inline elements are <a> and <span>. 1 inline-block element is a <div>
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+: the box model is the idea that all the content on our page exists in different boxes, within these boxes there are other boxes that control how that elemnt looks and reacts with other boxes.
+the first box is our content box witch holds the content, the second is the padding box witch controlls the spacing between the content and border, next is the border witch can be styled to put 
+a border around our content, finally we have the margin witch controls the spacing between that box and everything elsse on the page.  
+
+
